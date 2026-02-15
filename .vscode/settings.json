@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Exercice 1 - Jeu 2D.slnx"
+    "dotnet.defaultSolution": "HinsRose-Ex1.slnx"
 }
