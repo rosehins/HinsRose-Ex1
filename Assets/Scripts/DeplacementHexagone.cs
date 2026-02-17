@@ -57,6 +57,16 @@ public class DeplacementHexagone : MonoBehaviour
             transform.position = new Vector2(positionXAleatoire, positionYAleatoire);
         }
 
+        if (transform.position.y < -8f)
+        {
+            transform.position=new Vector2(nouvellePositionX, nouvellePositionY);
+
+            float positionXAleatoire = Random.Range(-5f, 6f);
+            float positionYAleatoire = Random.Range(6f, 7f);
+
+            transform.position = new Vector2(positionXAleatoire, positionYAleatoire);
+        }
+
         
 
     }
